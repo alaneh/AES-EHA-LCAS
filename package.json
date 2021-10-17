@@ -1,0 +1,19 @@
+{
+  "name": "aes-eha-lcas",
+  "version": "1.0.0",
+  "description": "Trabajo de SWyA de Elizalde Hernandez Alan y Lopez Castillo Azurim Sua",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaneh/AES-EHA-LCAS.git"
+  },
+  "author": "Elizalde Hernandez Alan y Lopez Castillo Azurim Sua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alaneh/AES-EHA-LCAS/issues"
+  },
+  "homepage": "https://github.com/alaneh/AES-EHA-LCAS#readme"
+}
