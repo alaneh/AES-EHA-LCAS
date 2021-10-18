@@ -1,19 +1,29 @@
 {
-  "name": "aes-eha-lcas",
-  "version": "1.0.0",
-  "description": "Trabajo de SWyA de Elizalde Hernandez Alan y Lopez Castillo Azurim Sua",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alaneh/AES-EHA-LCAS.git"
-  },
-  "author": "Elizalde Hernandez Alan y Lopez Castillo Azurim Sua",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alaneh/AES-EHA-LCAS/issues"
-  },
-  "homepage": "https://github.com/alaneh/AES-EHA-LCAS#readme"
+    "name": "aes-eha-lcas",
+    "version": "1.0.0",
+    "description": "Trabajo de SWyA de Elizalde Hernandez Alan y Lopez Castillo Azurim Sua",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alaneh/AES-EHA-LCAS.git"
+    },
+    "author": "Elizalde Hernandez Alan y Lopez Castillo Azurim Sua",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/alaneh/AES-EHA-LCAS/issues"
+    },
+    "homepage": "https://github.com/alaneh/AES-EHA-LCAS#readme",
+    "dependencies": {
+        "adm-zip": "^0.5.9",
+        "buffer": "^6.0.3",
+        "crypto-js": "^4.1.1",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.2.1",
+        "fs": "0.0.1-security",
+        "nodemon": "^2.0.13"
+    }
 }
