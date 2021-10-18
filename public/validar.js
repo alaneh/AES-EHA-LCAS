@@ -5,60 +5,6 @@ let arrayNombre, longitud, extension, validacion;
 const regexTxt = ".txt";
 let formulario = document.getElementById("formulario");
 
-function Cifrado(event) {
-    var Password = formulario.clave.value.length;
-    const contenido = document.getElementById("Texto");
-
-    if (document.getElementById('128').checked == true) {
-        if (Password == 16) {
-            if (contenido.value == "") {
-                Swal.fire({
-                    icon: 'error',
-                    title: 'ERROR',
-                    text: 'Necesitas añadir un archivo valido para cifrar',
-                });
-                formulario.setAttribute("action", "/index");
-            } else {
-                formulario.setAttribute("action", "/cifrar");
-            }
-        } else {
-            alert("ingrese una contraseña de 16 caracteres ni mas ni menos");
-            formulario.setAttribute("action", "/index");
-
-        }
-    } else
-    if (document.getElementById('192').checked == true) {
-        if (Password == 24) {
-            if (contenido.value == "") {
-                alert("Necesitas añadir un archivo valido para cifrar");
-                formulario.setAttribute("action", "/index");
-            } else {
-                formulario.setAttribute("action", "/cifrar");
-            }
-
-        } else {
-            alert("ingrese una contraseña de 24 caracteres ni mas ni menos");
-            formulario.setAttribute("action", "/index");
-
-        }
-    } else
-    if (document.getElementById('256').checked == true) {
-        if (Password == 32) {
-            if (contenido.value == "") {
-                alert("Necesitas añadir un archivo valido para cifrar");
-                formulario.setAttribute("action", "/index");
-            } else {
-                formulario.setAttribute("action", "/cifrar");
-            }
-
-        } else {
-            alert("ingrese una contraseña de 32 caracteres ni mas ni menos");
-            formulario.setAttribute("action", "/index");
-
-        }
-    }
-}
-
 function validarCifrado(event) {
     formulario.setAttribute("action", "/cifrar");
     validacion = true;
